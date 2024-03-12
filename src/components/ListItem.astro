@@ -1,0 +1,17 @@
+---
+const {listItem} = Astro.props
+---
+
+
+
+<li class="bg-[#23262d] hover:bg-gradient-to-br
+hover:from-purple-700 hover:to-purple-300  sm:hover:scale-110 transition-all 
+duration-500 ease-in px-4 text-slate-900 w-[400px] rounded-lg py-4 ">
+    <h1 class="text-yellow-300 text-lg font-bold  mb-2 ">{listItem.name}</h1>
+    <h3 class="mb-4 text-yellow-300 ">{listItem.screen}</h3>
+    <ol type="1" class="px-6" >
+        {listItem.instructions.map(item =>{
+          return  <li class=" list-decimal text-yellow-300 text-sm">{item}</li>
+        })}
+    </ol>
+</li> 

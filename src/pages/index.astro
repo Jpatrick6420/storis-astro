@@ -1,10 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { jls } from '../data/jlsData';
+console.log(jls[0])
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
+	<!-- <main>
 		<svg
 			class="astro-a"
 			width="495"
@@ -59,7 +61,12 @@ import Card from '../components/Card.astro';
 				title="Community"
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
-		</ul>
+		</ul> -->
+		<h1 class="text-yellow-400">Welcome to your Storis Cheatsheet</h1>
+		<h2 class="text-yellow-300 text-center mb-4">tips and tricks:</h2>
+		<p>Please text the creator with any additions that need to be made. (Justin Patrick @ the South Salt Lake Store)</p>
+		<p>There is a search feature inside the search terms for your use</p>
+		
 	</main>
 </Layout>
 
@@ -73,6 +80,11 @@ import Card from '../components/Card.astro';
 		font-size: 20px;
 		line-height: 1.6;
 	}
+	p{
+		color: rgb(253 224 71);
+		padding: 0 2rem;
+		margin: 2rem 0;
+	}
 	.astro-a {
 		position: absolute;
 		top: -32px;
@@ -83,7 +95,7 @@ import Card from '../components/Card.astro';
 		z-index: -1;
 	}
 	h1 {
-		font-size: 4rem;
+		font-size: 2rem;
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
@@ -121,3 +133,4 @@ import Card from '../components/Card.astro';
 		padding: 0;
 	}
 </style>
+

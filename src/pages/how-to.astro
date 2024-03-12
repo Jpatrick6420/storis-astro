@@ -1,0 +1,23 @@
+---
+
+import Layout from '../layouts/Layout.astro'
+import {howToTopics} from '../data/how-to.js'
+import ListItem from '../components/ListItem.astro'
+---
+<Layout title="how to">
+    <section class="text-stone-50 flex justify-center  ">
+       <ol type='1' class="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+        {howToTopics.map(item=> {
+            
+
+            return <ListItem listItem = {item} />} 
+        
+        )}
+
+       
+       </ol>
+       
+    </section>
+
+    
+</Layout>
