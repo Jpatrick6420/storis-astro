@@ -3,6 +3,7 @@ export const topics = [
   { title: "Battery Packs", instructions: "product group => MOTBAT" },
   { title: "Bed Brackets", instructions: "product group => CNVBED" },
   { title: "Blue Rewards", instructions: "sku=> BLUE-REWARDS" },
+  { title: "BBQ Accessories/pellets", instructions: "product group => BBQACC" },
   { title: "Bunkettes", instructions: "product group => BUNKIE" },
   { title: "Frames", instructions: "product group => FRAMES" },
   { title: "Protectors", instructions: "product group => MATT-PRO" },

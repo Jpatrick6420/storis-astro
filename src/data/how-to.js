@@ -23,7 +23,8 @@ export const howToTopics = [
     name: "Blue Rewards Fix",
     screen: "Fullfillment Screen",
     instructions: [
-      "Click Fulfilemnt arrow and select take with",
+      "Click Fulfillment arrow",
+      "select take with",
       "Change Fulfillment to Customer Pick Up",
       "Select Date for fulfillment date",
     ],
@@ -40,4 +41,4 @@ export const howToTopics = [
       "Check payment tab",
     ],
   },
-];
+].sort((a, b) => a.name.localeCompare(b.name));
