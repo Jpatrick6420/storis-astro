@@ -41,4 +41,13 @@ export const howToTopics = [
       "Check payment tab",
     ],
   },
+  {
+    name: "Delivery Windows",
+    instructions: [
+      "Schedule Delivery",
+      "Update mobile phone number",
+      "Customer will recieve an ETA by text after 4pm the day before",
+      "The customer can check after 4 by visiting rcwilley.com",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));

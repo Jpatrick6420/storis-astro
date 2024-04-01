@@ -11,6 +11,10 @@ export const topics = [
   { title: "Special Order", instructions: "collection: SO, vender: CODE" },
   { title: "Split Queen Boxspring", instructions: "collection => SQ-FND" },
   { title: "Swivel", instructions: "product group => MOTACC" },
+  {
+    title: "Free Garage Delivery",
+    instructions: "sku: 111955292 || 111994276",
+  },
 ].sort((a, b) => {
   return a.title.localeCompare(b.title);
 });
