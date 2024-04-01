@@ -42,6 +42,26 @@ export const howToTopics = [
     ],
   },
   {
+    name: "Auto Update Discounts",
+    instructions: [
+      "Navigate to merchandise screen",
+      "Click action button",
+      "Select automate discounts",
+    ],
+  },
+  {
+    name: "Preferred print option",
+    instructions: [
+      "Go to payment section in the ticket",
+      "Select Print",
+      "Go to specify default printer",
+      "Select last option (Storis Print Preview",
+      "Wait for it to load",
+      "Select print",
+      "Select your desired Printer",
+    ],
+  },
+  {
     name: "Delivery Windows",
     instructions: [
       "Schedule Delivery",
