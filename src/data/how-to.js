@@ -82,6 +82,10 @@ export const howToTopics = [
     ],
   },
   {
+    name: "undelivered",
+    instructions: ["Go to REPORT OPEN SALES ORDER SUMMARY"],
+  },
+  {
     name: "Delivery Windows",
     instructions: [
       "Schedule Delivery",
