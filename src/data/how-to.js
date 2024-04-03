@@ -10,6 +10,26 @@ export const howToTopics = [
     ],
   },
   {
+    name: "Canceled order by customer",
+    screen: "View Customer Activity",
+    instructions: [
+      "Lookup customer",
+      "Select historical purchases",
+      "Select canceled orders from drop box",
+    ],
+  },
+  {
+    name: "Multiple line discounts",
+    screen: "Merchandise screen inside order",
+    instructions: [
+      "Enter all group clearance skus (without as-is discounts)",
+      "Click the action button",
+      "Select ENTER DISCOUNT ON MULTIPLE LINES",
+      "Select clearance allowance (NOT AS-IS DISCOUNT)",
+      "Enter the discount total for all peices",
+    ],
+  },
+  {
     name: "Fab",
     screen: "Payment Screen",
     instructions: [
