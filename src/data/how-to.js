@@ -83,7 +83,11 @@ export const howToTopics = [
   },
   {
     name: "undelivered",
-    instructions: ["Go to REPORT OPEN SALES ORDER SUMMARY"],
+    instructions: [
+      "Go to REPORT OPEN SALES ORDER SUMMARY",
+      "Enter your numbers",
+      "DO NOT LOOK UP OTHER SALESMANS NUMBERS",
+    ],
   },
   {
     name: "Delivery Windows",
