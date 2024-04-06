@@ -131,4 +131,11 @@ export const howToTopics = [
       "Currently, if two people are viewing the same order then it will lock the second persons computer until the first person is out",
     ],
   },
+  {
+    name: "Order business cards",
+    instructions: [
+      "Go to favorites on store browser",
+      "Click Payroll and Forms",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));
