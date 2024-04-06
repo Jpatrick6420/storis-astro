@@ -66,7 +66,7 @@ export const howToTopics = [
     instructions: [
       "Navigate to merchandise screen",
       "Click action button",
-      "Select automate discounts",
+      "Select start automate discounts",
     ],
   },
   {
@@ -84,9 +84,17 @@ export const howToTopics = [
   {
     name: "undelivered",
     instructions: [
-      "Go to REPORT OPEN SALES ORDER SUMMARY",
-      "Enter your numbers",
-      "DO NOT LOOK UP OTHER SALESMANS NUMBERS",
+      "Enter report open sales order",
+      "Enter Associate number",
+      "Clear start dates",
+      "Select Action button",
+      "Select Output settings",
+      "Select Personal Report Viewer",
+      "Click save",
+      "Click run",
+      "Right click order date and select group by",
+      "Right click order number next and select group by",
+      "**when you print, all fields are expanded automatically",
     ],
   },
   {
@@ -96,6 +104,31 @@ export const howToTopics = [
       "Update mobile phone number",
       "Customer will recieve an ETA by text after 4pm the day before",
       "The customer can check after 4 by visiting rcwilley.com",
+    ],
+  },
+  {
+    name: "Check PO notes",
+    instructions: [
+      "Enter View Product Activity",
+      "Enter sku",
+      "Go to purchase orders tab",
+      "Double click purchase order",
+      "Click on Quantity tab",
+      "Click action button",
+      "Select view comments",
+    ],
+  },
+  {
+    name: "Find unpaid tickets",
+    instructions: [
+      "Go inside a live ticket",
+      "Go to the merchandise tab",
+      "Right click in the top half of the screen",
+      "Select View Product Activity",
+      "Select open orders tab",
+      "💥 Select all stores",
+      "You can now enter the tickets without affecting them",
+      "Currently, if two people are viewing the same order then it will lock the second persons computer until the first person is out",
     ],
   },
 ].sort((a, b) => a.name.localeCompare(b.name));
