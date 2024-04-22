@@ -138,4 +138,18 @@ export const howToTopics = [
       "Click Payroll and Forms",
     ],
   },
+  {
+    name: "Write aged tickets",
+    instructions: [
+      "You can only use an Ag code once per ticket. So tickets must be split for multiples",
+      "Enter sku",
+      "Select AGBED or AGDIN before clicking save",
+      "If you are using age on a kit sku then you must select the discount AFTER you click save",
+      "Click action at the top of the page",
+      "Click enter Discounts on Multiple lines",
+      "Check the checkbox next to the kit merchandise",
+      "Enter the amount of the discount",
+      "Click save",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));
