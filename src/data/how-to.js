@@ -36,7 +36,7 @@ export const howToTopics = [
       "Click Action Button next to fabric protection",
       "Select Manual Select for appropriate option",
       "Check Boxes of items that you want to protect",
-      "verify that box is checked next to option",
+      "Verify that box is checked next to option",
     ],
   },
   {
