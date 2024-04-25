@@ -11,6 +11,7 @@ export const topics = [
   { title: "Special Order", instructions: "collection: SO, vender: CODE" },
   { title: "Split Queen Boxspring", instructions: "collection => SQ-FND" },
   { title: "Swivel", instructions: "product group => MOTACC" },
+  { title: "Default Canyon Safe Code", instructions: "159#" },
   {
     title: "Free Garage Delivery",
     instructions: "sku: 111994276",
