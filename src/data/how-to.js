@@ -152,4 +152,37 @@ export const howToTopics = [
       "Click save",
     ],
   },
+  {
+    name: "Find other colors of items that don't have a collection",
+    instructions: [
+      "Enter View Product Activity",
+      "Click Magifying glass (do not put in the sku without entering the search)",
+      "Enter the sku of the item that you have",
+      "Scoll over to Vender Model column",
+      "Enter the model number (up until color code) on the tab on the left side under vender model",
+      "Delete the sku that you first put in",
+      "Click Search",
+    ],
+  },
+  {
+    name: "Assigning Stock to a ticket",
+    instructions: [
+      "Enter the ticket",
+      "Click on the item that needs to be assigned",
+      "Select the action button",
+      "Select Assign",
+      "Click item with reference number that needs to be assigned",
+      "Click green plus button",
+      "Click exit",
+    ],
+  },
+  {
+    name: "Entering Promo codes on mattresses (when stock goes towards product",
+    instructions: [
+      "Enter mattress",
+      "Enter Item that needs the discount (make sure it's the largest applicable item",
+      "Click discount code",
+      "Select discount",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));
