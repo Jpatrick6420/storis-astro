@@ -10,7 +10,6 @@ export const topics = [
   { title: "Rug Pads", instructions: "product group => RUGPAD" },
   { title: "Special Order", instructions: "collection: SO, vender: CODE" },
   { title: "Split Queen Boxspring", instructions: "collection => SQ-FND" },
-  { title: "Swivel", instructions: "product group => MOTACC" },
   { title: "Canyon Safe Code (default)", instructions: "159#" },
   {
     title: "Free Garage Delivery",
