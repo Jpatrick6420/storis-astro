@@ -13,7 +13,7 @@ export const topics = [
   { title: "Canyon Safe Code (default)", instructions: "159#" },
   {
     title: "Free Garage Delivery",
-    instructions: "sku: 111994276",
+    instructions: "sku: FGD",
   },
   { title: "Haul away old mattresses", intructions: "sku: HAUL" },
   {
