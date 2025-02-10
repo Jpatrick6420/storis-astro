@@ -246,4 +246,20 @@ export const howToTopics = [
       "Those notes will now be added to every delivery to that address",
     ],
   },
+  {
+    name: "Credit App",
+    instructions: [
+      "Start a new ticket",
+      "Ensure that the name matches a legal id (license, state id, or perminant resident card)",
+      "Go to customer tab",
+      "Click the action button at the top (3 dots)",
+      "Click on New Application",
+      "Enter Customer information (If they have a perminent resident card then put the state followed by PR and then the number ex: UTPR{number})",
+      "Enter Work information (ignore reference)",
+      "Enter Residence information. If they live at home put 0 in for the current rent",
+      "Verify that all information is correct. Once you submit then it will be on their long term credit report",
+      "Submit form",
+      "When asked to print ****DO NOT PRINT***",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));
