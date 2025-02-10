@@ -215,4 +215,35 @@ export const howToTopics = [
       "Click complete",
     ],
   },
+  {
+    name: "intelligent search",
+    instructions: [
+      "Enter a field requiring you to find an account",
+      "Enter the whole or part of your customers last name and push enter",
+      "Select Search",
+      "You can click in any empty box accross the fields and search live, as you type",
+    ],
+  },
+  {
+    name: "Adding secondary addresses",
+    instructions: [
+      "Go to the fulfilment screen inside a ticket.",
+      "Click on the action button",
+      "Select add new address",
+      "Give second address a nickname",
+      "Fill out information",
+      "Click save",
+      "You can now select address from the drop down box on the right",
+    ],
+  },
+  {
+    name: "Adding perminent notes for delivery addresses",
+    instructions: [
+      "Go to fullfilment",
+      "Click on print notes for delivery",
+      "Click on the action button",
+      "Add notes to popup",
+      "Those notes will now be added to every delivery to that address",
+    ],
+  },
 ].sort((a, b) => a.name.localeCompare(b.name));

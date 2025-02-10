@@ -9,16 +9,10 @@ function NavBarMobile() {
           <a href="/">Home</a>
         </li>
         <li class="px-2 hover:text-purple-600  hover:scale-110 active:scale-100">
-          How To
+          <a href="/how-to">How To</a>
         </li>
         <li class="px-2 hover:text-purple-600  hover:scale-110 active:scale-100">
           <a href="/glossary">Glossary</a>
-        </li>
-        <li class="px-2 hover:text-purple-600  hover:scale-110 active:scale-100">
-          Screens
-        </li>
-        <li class="px-2 hover:text-purple-600  hover:scale-110 active:scale-100">
-          Departments
         </li>
       </ul>
     </nav>
